@@ -1,0 +1,77 @@
+#rollButton {
+  display: none;
+}
+
+#bankButton {
+  display: none;
+}
+
+.nameEntry1, .nameEntry2 {
+  display: none;
+}
+
+#nextGame {
+  display: none;
+}
+
+.currentPlayer {
+  background-color: rgba(0, 211, 32, .3);
+  border: 5px ridge darkgreen;
+}
+
+.displayDice1, .displayDice2 {
+  font-size: 200px;
+  line-height: 130px;
+}
+
+#gameScore {
+  border: 5px ridge rgb(128, 187, 150);
+  background-color: rgb(155, 80, 80);
+  margin-top: 20px;
+}
+
+#gameType, #playerCount {
+  width: 166.016px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+#twoDice {
+  display: none;
+}
+
+h1 {
+  font-size:17px;
+color: black;
+font-family: fantasy;
+font-style: oblique;
+}
+
+body {
+  background-color: burlywood;
+  text-align: center;
+}
+
+#header {
+  border: 5px ridge black ;
+  background-color: #2f9274;
+  text-align: center;
+}
+
+img {
+  width: 20%;
+}
+
+.btn {
+  margin: 15px;
+  padding: 5px;
+  background-color: rgb(46, 100, 96);
+  color: white;
+}
+
+#player1Working, #player2Working {
+  margin-top: 20px;
+  padding: 15px;
+}
+

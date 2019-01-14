@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+  
+
+  <head> 
+      <meta charset="utf-8">
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+      <link href="css/dice.css" rel="stylesheet" type="text/css" media="all">
+      <script src="js/jquery-3.3.1.js"></script>
+      <script src="js/dice.js"></script>
+      <title></title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" id="header">
+          <h2>pig dice game</h2>
+           <h1><img src="https://media1.tenor.com/images/2fcf7e0bdb5ed04fcb5092cf2479907e/tenor.gif?itemid=4717877">
+          <p id="oneDie">Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "bank". If the player rolls a 1, they score nothing and it becomes the next player's turn. If the player rolls any other number, it is added to their turn total and the player's turn continues. If a player chooses to "bank", their turn total is added to their score, and it becomes the next player's turn. <br><br>The first player to score 100 or more points wins.</p>
+          <p id="twoDice">This variation is the same as Pig except two standard dice are rolled. If neither shows a 1, their sum is added to the turn total. If a single 1 is rolled, the player scores nothing and the turn ends. If two 1s are rolled, the player’s entire score is lost, and the turn ends.<br><br>The first player to score 100 or more points wins.</p>
+          <div id="gameStart">
+            <select id="gameType" class="form-control">
+              <option value="1">One dice </option>
+              <option value="2">Two dice </option>
+            </select>
+            <select id="playerCount" class="form-control">
+              <option value="3">One player game </option>
+              <option value="2">Two player game </option>      
+            </select>
+
+            <button id="startGame" class="btn btn-lg">Start Game!</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4" id="player1Working">
+          <div class="form-group nameEntry1">
+            <label for="p1Name">1st player name:</label>
+            <input id="p1Name" type="text" class="form-control">
+            <button id="p1NameSubmit" class="btn btn-lg">Submit</button>
+          </div>
+          <h4><span id="p1NameOutput">1st player</span> score:<span id="p1BankTotal"></span></h4>
+        </div>
+        <div class="col-md-4" id="gameScore">
+          <!--<h4>Dice roll:<span id="rollOutput"></span></h4>-->
+          <div class="displayDice1"></div>
+          <div class="displayDice2"></div>
+          <h4>Turn total:<span id="turnTotal"></span></h4>
+          <h4>Current Player:<span id="currentPlayer"></span></h4>
+          <button id="rollButton" class="btn btn-lg">Roll dice!</button>
+          <button id="bankButton" class="btn btn-lg">store my points!</button>
+          <h3 id="winner"></h3>
+        </div>
+        <div class="col-md-4" id="player2Working">
+          <div class="form-group nameEntry2">
+            <label for="p2Name">2nd player name:</label>
+            <input id="p2Name" type="text" class="form-control">
+            <button id="p2NameSubmit" class="btn btn-lg">Submit</button>
+          </div>
+          <h4><span id="p2NameOutput">Player2</span>score:<span id="p2BankTotal"></span></h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
