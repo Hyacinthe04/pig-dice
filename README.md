@@ -43,7 +43,7 @@ Source code available at repository
 Turn total does not display on second roll on easy computer's turn.
 
 #Support and contact details
-Contact one of the authors at:hyacinthen04@gmail.com
+Contact one of the authors at:hyacinthen04@gmail.com , 0785502657
 
 #Technologies Used
 jquery
