@@ -15,8 +15,8 @@
 }
 
 .currentPlayer {
-  background-color: rgba(78, 161, 46, 0.3);
-  border: 5px ridge brown;
+  background-color: rgba(104, 72, 30, 0.3);
+  border: 5px ridge rgb(42, 157, 165);
 }
 
 .displayDice1, .displayDice2 {
@@ -25,7 +25,7 @@
 }
 
 #gameScore {
-  border: 5px ridge rgb(172, 142, 86);
+  border: 5px ridge rgb(137, 194, 137);
   background-color: rgb(36, 117, 113);
   margin-top: 18px;
 }
