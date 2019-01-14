@@ -275,7 +275,7 @@ $(document).ready(function(){
     $("#player1Working").removeClass("currentPlayer");
   });
 
-  $("#p2NameSubmit").click(function(){
+  
     var name = $("#p2Name").val();
     player2.addName(name);
     $("#p2NameOutput").text(player2.name);
