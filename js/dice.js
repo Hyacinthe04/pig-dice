@@ -230,8 +230,8 @@ $(document).ready(function(){
     }
 
   });
+
   $("#startGame").click(function() {
-  
     game = new Game();
     player1.bank = 0;
     player2.bank = 0;

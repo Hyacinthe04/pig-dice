@@ -50,6 +50,8 @@ Turn total does not display on second roll on easy computer's turn.
 
 #Support and contact details
 Contact one of the authors at: hyacinthen04@gmail.com
+#published page
+https://hyacinthe04.github.io/pig-dice/
 
 #Technologies Used
 jquery
