@@ -27,7 +27,7 @@
 #gameScore {
   border: 5px ridge rgb(128, 187, 150);
   background-color: rgb(155, 80, 80);
-  margin-top: 20px;
+  margin-top: 18px;
 }
 
 #gameType, #playerCount {
