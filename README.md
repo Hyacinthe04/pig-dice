@@ -1,6 +1,6 @@
 #Pig Dice
 Pig Dice is a game of luck and intrigue where players roll a die until they get a one or choose to stop and bank their total. First player to bank 100 points wins. {january 2019}
-By {Brad Copenhaver and Jonathan Thom}
+By {Hyacinthe Ndayiragije}
 #Description
 Specifications
 
