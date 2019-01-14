@@ -2,6 +2,12 @@
 Pig Dice is a game of luck and intrigue where players roll a die until they get a one or choose to stop and bank their total. First player to bank 100 points wins. {january 2019}
 By {Hyacinthe Ndayiragije}
 #Description
+A simple dice game. Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "stay":
+
+If the player rolls a 1, they score nothing and it becomes the next player's turn.
+If the player rolls any other number, it is added to their turn total and the player's turn continues.
+If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
+The first player to score 100 or more points wins.
 #Specifications
 
 Display a random number between 1 and 6.
